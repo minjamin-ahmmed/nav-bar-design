@@ -1,11 +1,15 @@
 
+import Navbar from "./Components/DaisyNav/Navbar/Navbar"
+
 
 function App() {
 
 
   return (
     <>
-      <h1 className="text-center py-10 font-bold text-3xl">Today we'll Practice Custom Navbar</h1>
+      <Navbar></Navbar>
+      
+      <h1 className="text-center py-10 font-bold text-3xl">Today We'll Practice Custom Navbar</h1>
     </>
   )
 }
